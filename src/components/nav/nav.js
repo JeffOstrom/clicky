@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 
 const Nav = props => (
-    <nav className="navbar"> This is my nav bar {props.name} SCORE: {props.score}</nav>
+    <nav className="navbar"> My total score update {props.name} SCORE: {props.score}</nav>
 );
 
 export default Nav; 

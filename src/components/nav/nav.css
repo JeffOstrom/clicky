@@ -1,3 +1,9 @@
-/*CSS STYLE FOR COMPONENT GOES HERE*/
+/*CSS STYLE*/
 
-.navbar{background: blue; height: 50px;}
+.navbar{background: yellow; height: 100px;
+text-align: center;
+}
+
+.navbar{
+	text-align: center;
+}

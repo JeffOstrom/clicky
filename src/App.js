@@ -26,11 +26,11 @@ class App extends Component {
       // {Return can only return single element so we wrap in div}
       <div className="App">
         <NavBar name="Jeff" score={this.state.score}/>
-        / <p className="App-intro">
-        //   To get started, edit <code>src/App.js</code> and save to reload.
-        // </p>
+        <p className="App-intro">
 
-        <Button click={this.buttonClick}/>
+     Click the button to update the score
+       </p>
+      <Button click={this.buttonClick}/>
       </div>
 
     );
